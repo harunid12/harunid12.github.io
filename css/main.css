@@ -1,0 +1,249 @@
+.main-nav {
+    background-color: rgb(255, 255, 255);
+}
+
+.main-nav .navbar-nav a.nav-link {
+    color: rgb(46, 39, 39);
+    font-weight: 600;
+}
+
+.main-nav .navbar-nav .nav-link.active, .main-nav .navbar-nav .nav-link:hover {
+    color: #59d102;
+}
+
+.main-nav img.main-logo {
+    max-width: 300px;
+    max-height: 100px;
+}
+
+.navbar {
+    box-shadow: 0 -10px 30px #666;
+}
+
+/* banners */
+#banners .carousel-item img{
+    max-height: 100vh;
+}
+
+/* about */
+.about .about-img {
+    opacity: 0;
+    transform: translate(-50px, 0);
+    transition: 1s;
+}
+
+.about-img.about-muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.about .about-desc {
+    opacity: 0;
+    transform: translate(50px, 0);
+    transition: 1s;
+}
+
+.about-desc.about-muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.about .main-tulisan-about {
+    opacity: 0;
+    transform: translate(0, 40px);
+    transition: 1s;
+}
+
+.main-tulisan-about.main-tulisan-muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+
+/* visi */
+
+.main-grey {
+    background-color: #f9f9f9;
+}
+
+.isi-vision {
+    font-style: italic;
+    font-size: 25px;
+}
+
+.vision-main-judul {
+    opacity: 0;
+    transform: translate(0, -50px);
+    transition: 1.7s;
+}
+
+.vision-main-judul.vision-judul-muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.vision .isi-vision {
+    opacity: 0;
+    transform: translate(0, 50px);
+    transition: 1.7s;
+}
+
+.isi-vision.isi-vision-muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.isi-misi {
+    font-size: 18px;
+}
+
+.vision .mision-main-judul {
+    opacity: 0;
+    transform: translate(50px);
+    transition: 1.7s;
+}
+
+.mision-main-judul.mision-main-muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.vision .isi-misi {
+    opacity: 0;
+    transform: translate(-50px);
+    transition: 1.7s;
+}
+
+.isi-misi.isi-misi-muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+/* #vision hr.garis-bawah-visi {
+    margin-bottom: 100px;
+} */
+
+/* #vision .container.garis-visi {
+    border-bottom: 3px;
+} */
+
+#vision h2.vision-main-judul {
+    color: black;
+}
+
+/*  */
+
+/* berita */
+
+#berita a {
+    text-decoration: none;
+    color: #60696b;
+}
+
+#berita .main-blog-author {
+    font-weight: 500;
+}
+
+#berita .main-blog-author:hover {
+    color: #FFC300;
+}
+
+#berita span.tgl-berita {
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+#berita .card-berita:hover{
+    transform: scale(1.01);
+    transition: .5s ease;
+    /* box-shadow: 0 5px 10px rgba(0,0,0, .5); */
+}
+
+#berita a:hover {
+    color: #59d102;
+}
+
+.berita .main-tulisan-berita {
+    opacity: 0;
+    transform: translate(40px);
+    transition: 1.7s;
+}
+
+.berita .main-tulisan-berita.bMuncul {
+    opacity: 1;
+	transform: translate(0,0);
+}
+
+.berita .card-berita {
+    opacity: 0;
+	transform: translate(0, -40px);
+	transition: .5s;
+}
+
+.berita .card-berita.muncul {
+    opacity: 1;
+	transform: translate(0,0);
+}
+/* footer */
+
+.main-footer-menu a img.footer-logo {
+    max-width: 300px;
+    max-height: 100px;
+}
+
+.main-footer-menu svg.warna-icon {
+    color: #59d102;
+}
+
+.main-footer-menu span.lokasi-text {
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.main-footer-menu ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.main-footer-menu table td.ket-logo {
+    color: rgba(255, 255, 255, .7);
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.main-footer-menu table td.logo {
+    color: #59d102;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.main-footer-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-footer-menu a:hover {
+    color: #59d102;
+}
+
+.main-footer-menu ul li {
+    padding-top: 15px;
+    list-style-type: none;
+}
+
+
+.main-footer-menu .videos-footer ul li {
+    padding-top: 15px;
+    list-style-type: none;
+}
+
+
+/* 
+.main-footer-menu svg.logo-lokasi {
+    color: #59d102;
+}
+
+.main-footer-menu p.lokasi-text {
+    padding-left: 20px;
+} */
