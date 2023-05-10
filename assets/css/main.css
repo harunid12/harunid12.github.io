@@ -1,0 +1,376 @@
+/* active */
+.active {
+    color: #f5f7f8;
+}
+
+/* img card */
+
+.object-fit-cover {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* main nav */
+.main-nav {
+    background-color: rgb(83, 83, 83);
+}
+
+.main-nav .navbar-nav a.nav-link {
+    color: #fff;
+    font-weight: 600;
+}
+
+.main-nav .navbar-nav .nav-link.active, .main-nav .navbar-nav .nav-link:hover {
+    color: #FFC300;
+
+}
+
+.navbar.scrolled {
+    background-color: rgb(83, 83, 83);
+    transition: background-color 0.5s ease;
+    box-shadow: 0px -10px 30px #666;
+}
+
+.navbar.scrolled a.nav-link {
+    color: rgb(250, 246, 246);
+}
+
+.navbar-brand {
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.navbar-brand span {
+    color: #FFC300;
+}
+
+.navbar img.main-logo {
+    max-width: 150px;
+}
+
+.navbar img.main-logo-hitam {
+    display: none;
+}
+
+.navbar.scrolled img.main-logo-hitam {
+    display: inline-block;
+}
+
+.navbar.scrolled img.main-logo-putih {
+    display: none;
+}
+/* untuk global */
+
+
+/* main intro */
+
+.main-intro {
+    background-color: rgb(226, 223, 223);
+    color: rgb(8, 8, 8);
+    height: 100vh;
+}
+
+.main-intro h2.hello {
+    color: rgb(92, 91, 91);
+}
+.main-intro h2 span {
+    color: #0a0a08;
+}
+
+.main-intro h4.a{
+    color: rgb(92, 91, 91);
+}
+
+.main-intro h4 span {
+    color: #0a0a08;
+}
+
+button.btn-warning {
+    background-color: #FFC300;
+}
+
+h2.main-judul::after {
+    margin-top: 20px;
+    display: block;
+    border-bottom: 5px solid #acaaa3;
+    width: 100px;
+    border-radius: 25px;
+    content: "";
+}
+
+.main-grey {
+    background-color: #dad8d8;
+}
+
+.main-atas-judul {
+    color: #999;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+a:hover {
+    transition: color .5s ease;
+}
+
+.main-intro p {
+    font-size: 1.5rem;
+}
+
+.main-intro .intro-icon, .social-icon a {
+    text-decoration: none;
+}
+
+.intro-icon, .social-icon i.bi-linkedin {
+    color: #0a6abe;
+    opacity: .8;
+}
+
+.intro-icon i.bi-github {
+    color: #0c0d0e;
+    opacity: .8;
+}
+
+.social-icon i.bi-github {
+    color: #0c0d0e;
+    opacity: .8;
+}
+
+.intro-icon, .social-icon i.bi-envelope-fill {
+    color: #1d4deb;
+    opacity: .8;
+}
+
+.intro-icon, .social-icon i {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+
+
+/* icon intro */
+.intro-icon, .social-icon i.bi-linkedin:hover {
+    opacity: 1;
+}
+
+.intro-icon, .social-icon i.bi-envelope-fill:hover {
+    opacity: 1;
+}
+
+.intro-icon i.bi-github:hover {
+    opacity: 1;
+}
+
+.social-icon i.bi-github:hover {
+    opacity: 1;
+}
+/* end main intro */
+
+/* about */
+
+#about {
+    background-color: #e2e5e7;
+}
+
+.about-text {
+    font-size: large;
+}
+
+@media (max-width: 767px){
+    .about-text {
+        margin-top: 20px;
+    }
+}
+
+
+/* end about */
+
+/* experience */
+
+.experience-desc img {
+    width: 100px;
+}
+
+.experience-desc p.position {
+    display: inline;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+
+.text-experience-desc ul li{
+    font-size: 1.1rem;
+}
+
+/* end experience */
+
+/* projects */
+
+#projects {
+    background-color: #e2e5e7;
+}
+
+#projects a {
+    text-decoration: none;
+}
+
+#projects p.card-title {
+    color: #404242;
+    font-size: 1.3rem;
+}
+
+#projects p.card-text {
+    color: #0a0a08;
+}
+
+#projects .card:hover {
+    transform: scale(1.01);
+    transition: .7s ease;
+    cursor: pointer;
+}
+
+/* end projects */
+
+/* skills */
+
+.skills-body .col {
+    display: inline-block;
+}
+
+#skills .card-body .col {
+    margin-right: 3rem;
+}
+
+#skills .card-body .col p {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+/* end skills */
+
+/* education */
+
+#education {
+    background-color: #e2e5e7;
+}
+
+/* end education */
+
+/* online certification */
+
+.img-certification:hover {
+    transform: scale(1.01);
+    transition: .7s ease;
+    cursor: pointer;
+}
+
+/* end online certification */
+
+
+/* contacts */
+
+.contacts-body .col {
+    background-color: #001D3D;
+    color: white;
+}
+
+/* endcontacts */
+
+
+/* blog */
+
+.main-blog-info img {
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+
+}
+
+.main-blog-info {
+    color:  #666;
+    position: relative;
+
+}
+
+.main-blog-info a {
+    padding-right: 15px;
+    color: #666;
+    text-decoration: none;
+
+}
+
+.main-blog-info a:hover {
+    color: #FFC300;
+}
+
+#blog .main-blog-info span {
+    font-size: 12px;
+    padding-left: 15px;
+    
+}
+
+#blog a{
+    text-decoration: none;
+    color: #666;
+}
+
+#blog a:hover {
+    color: #FFC300;
+}
+
+#blog-detail .main-blog-info img {
+    float: none;
+}
+
+#blog-detail .main-blog-info span::before {
+    content: "";
+    top: 0px;
+    margin-bottom: 3px;
+    display: inline-block;
+    margin-right: 15px;
+    background-color: #CCC;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+}
+
+.main-tulisan-lain h4 a {
+    color: #666;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* footer */
+.main-footer-menu h3 {
+    color: #CCC;
+    margin-bottom: 15px;
+
+}
+
+.main-footer-menu a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.main-footer-menu a:hover {
+    color: #FFC300;
+}
+
+.main-footer-menu ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-left: 0px;
+
+}
+
+.main-footer-menu ul li {
+    margin-bottom: 10px;
+}
+
+.main-footer-copyright {
+    background-color: #001D3D;
+    color: #fff;
+}
