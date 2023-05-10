@@ -28,7 +28,6 @@
 //         counter = 0;
 //     }
 // }
-
 const text = document.querySelector(".change-text");
 const words = ["Programmer", "Web Developer", "Computer Vision Enthusiast"];
 let index = 0;
