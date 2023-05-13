@@ -29,7 +29,7 @@
 //     }
 // }
 const text = document.querySelector(".change-text");
-const words = ["Programmer", "Web Developer", "Computer Vision Enthusiast"];
+const words = ["Programmer", "Web Developer"];
 let index = 0;
 
 function showText() {
@@ -91,3 +91,23 @@ function setActiveMenu(event){
     }
   }
 }
+
+// event pada saat di klik
+
+$('.page-scroll').on('click', function(e){
+
+	//ambil isi href
+	var tujuan = $(this).attr('href');
+	//tangkap elemen yang bersangkutan
+
+	var elemenTujuan = $(tujuan);
+
+	//pindahkan scrol
+
+	$('html,body').animate({
+		scrollTop: elemenTujuan.offset().top - 90
+	});
+
+	e.preventDefault();
+
+});
